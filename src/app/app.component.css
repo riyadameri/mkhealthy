@@ -1,0 +1,10 @@
+.MainApp{
+  display: flex;
+  flex-direction: column;
+  flex : 3;
+  align-items: start;
+  justify-content: space-between;
+  background: rgb(255, 255, 242);
+  font-family: 'Franklin Gothic Medium','Arial Narrow', Arial, sans-serif;
+  
+}
