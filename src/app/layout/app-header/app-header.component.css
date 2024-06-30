@@ -91,6 +91,15 @@
   color: rgb(189, 129, 50);
   font-weight: bold;
 }
+.maintitile{
+  transition-property:transform;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay : 0.2s;
+}
+.maintitile:hover{
+  transform: scale(1.3);
+}
 
 @media all and (max-width: 500px) {
   .appBar {
