@@ -9,3 +9,21 @@
   font-family: 'Franklin Gothic Medium','Arial Narrow', Arial, sans-serif;
   
 }
+app-app-header{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+router-outlet{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+app-app-footer{
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin-top: 12px;
+  align-self: center;
+  flex-grow: 1;
+}
